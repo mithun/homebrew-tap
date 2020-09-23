@@ -7,7 +7,7 @@ cask "awscli2" do
 
   depends_on macos: ">= :mojave"
 
-  pkg "AWSCLIV2-#{version}"
+  pkg "AWSCLIV2-#{version}.pkg"
 
   uninstall pkgutil: "com.amazon.aws.cli.*"
 end

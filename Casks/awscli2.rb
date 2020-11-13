@@ -1,8 +1,8 @@
 cask "awscli2" do
   name "AWS Command Line Interface"
   homepage "https://aws.amazon.com/cli/"
-  version "2.0.50"
-  sha256 "9df5e8d901c8d1f24a052bc745966ec52809815f05cddce690e8680f11a79bf9"
+  version "2.1.1"
+  sha256 "c22c2790a756a0a399f1b6c346e59c76beea58e0fb7154d1000ff5192d030b71"
   url "https://awscli.amazonaws.com/AWSCLIV2-#{version}.pkg"
 
   depends_on macos: ">= :mojave"

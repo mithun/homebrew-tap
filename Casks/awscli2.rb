@@ -1,13 +1,1 @@
-cask "awscli2" do
-  name "AWS Command Line Interface"
-  homepage "https://aws.amazon.com/cli/"
-  version "2.1.14"
-  sha256 "74ad9760d08d6044d90784e2bded943521a34833e71c21c7d851c987a3e4fc97"
-  url "https://awscli.amazonaws.com/AWSCLIV2-#{version}.pkg"
-
-  depends_on macos: ">= :mojave"
-
-  pkg "AWSCLIV2-#{version}.pkg"
-
-  uninstall pkgutil: "com.amazon.aws.cli.*"
-end
+CiAgICBjYXNrICJhd3NjbGkyIiBkbwogICAgICAgIG5hbWUgIkFXUyBDb21tYW5kIExpbmUgSW50ZXJmYWNlIgogICAgICAgIGhvbWVwYWdlICJodHRwczovL2F3cy5hbWF6b24uY29tL2NsaS8iCiAgICAgICAgdmVyc2lvbiAiMi4wLjAiCiAgICAgICAgc2hhMjU2ICJhOTljMjZjZDJiNTY1NTk3MGRiOTEyNTlhMjQ3ZjU4NWFlYTMyY2ZiNzM0N2UxYTI4YTI1YjZmNjQ4NGIxNmRjIgogICAgICAgIHVybCAiaHR0cHM6Ly9hd3NjbGkuYW1hem9uYXdzLmNvbS9BV1NDTElWMi0yLjAuMC5wa2ciCgogICAgICAgIGRlcGVuZHNfb24gbWFjb3M6ICI+PSA6bW9qYXZlIgoKICAgICAgICBwa2cgIkFXU0NMSVYyLTIuMC4wLnBrZyIKCiAgICAgICAgdW5pbnN0YWxsIHBrZ3V0aWw6ICJjb20uYW1hem9uLmF3cy5jbGkuKiIKICAgIGVuZAogICAg
